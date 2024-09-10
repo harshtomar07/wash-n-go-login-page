@@ -3,7 +3,7 @@ import { View, Text, Button, StyleSheet } from 'react-native';
 
 export default function LogoutScreen({ navigation }) {
   const handleLogout = () => {
-    // Clear session or token here if needed
+    
     navigation.navigate('SignIn');
   };
 
